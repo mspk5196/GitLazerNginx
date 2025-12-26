@@ -10,5 +10,5 @@ services:
       - ./conf.d:/etc/nginx/conf.d:/etc/nginx/conf.d
     restart: unless-stopped
     networks:
-      - global-nginx_default
+      - global-nginx
       - mom_bitmeetings-network
