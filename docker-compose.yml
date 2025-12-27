@@ -7,5 +7,5 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./conf.d:/etc/nginx/conf.d:/etc/nginx/conf.d
+      - ./conf.d:/etc/nginx/conf.d
     restart: unless-stopped
