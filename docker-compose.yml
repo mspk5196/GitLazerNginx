@@ -11,3 +11,8 @@ services:
     restart: unless-stopped
     networks:
       - reverse-proxy
+
+networks:
+  reverse-proxy:
+    driver: bridge
+    external: true
